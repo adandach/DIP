@@ -1,14 +1,14 @@
 package com.ford.smarthome.switches;
 
-import com.ford.smarthome.switchable.LightBulb2300;
+import com.ford.smarthome.switchable.Switchable;
 
 class Switch9000 {
 
-    private LightBulb2300 lightBulb2300;
+    private Switchable switchable;
     private boolean on = false;
 
-    Switch9000(LightBulb2300 lightBulb2300) {
-        this.lightBulb2300 = lightBulb2300;
+    Switch9000(Switchable switchable) {
+        this.switchable = switchable;
     }
 
     boolean isOn() {
@@ -17,10 +17,10 @@ class Switch9000 {
 
     void press() {
         if(isOn()) {
-            lightBulb2300.turnOff();
+            switchable.turnOff();
             on = false;
         } else {
-            lightBulb2300.turnOn();
+            switchable.turnOn();
             on = true;
         }
     }
