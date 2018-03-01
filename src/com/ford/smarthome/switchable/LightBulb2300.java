@@ -1,5 +1,7 @@
 package com.ford.smarthome.switchable;
 
+import com.ford.smarthome.switches.Switchable;
+
 public class LightBulb2300 implements Switchable {
     @Override
     public void turnOn() {

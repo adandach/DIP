@@ -1,7 +1,5 @@
 package com.ford.smarthome.switches;
 
-import com.ford.smarthome.switchable.Switchable;
-
 class Switch9000 {
 
     private Switchable switchable;

@@ -1,4 +1,4 @@
-package com.ford.smarthome.switchable;
+package com.ford.smarthome.switches;
 
 public interface Switchable {
     void turnOn();
