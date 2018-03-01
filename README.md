@@ -30,12 +30,14 @@ SW9000
   - isOn
   - press
 ```
-With this code, what happens if the manufacturer of the LB2300 comes out with a new model? 
+[Code: v1.0] With this code, what happens if the manufacturer of the LB2300 comes out with a new model? 
 How can we write our switch to prevent this?
 
-By creating an interface for the switchable objects, I've added a layer of abstraction. Is this really DIP?
+[Code: v1.1] By creating an interface for the switchable objects, I've added a layer of abstraction. Is this really DIP?
 
 Remember, high-level modules should not depend on low-level modules. Identify the high level and low level modules.
 Who owns the abstraction?
 
-Let's move the abstraction to the high-level module. Now, is this an example of DIP?
+[Code: v1.2] Let's move the abstraction to the high-level module. Now, is this an example of DIP?
+
+_Each [Code: tag] corresponds to a release tag in git. You can checkout each release top jump directly to that step._
