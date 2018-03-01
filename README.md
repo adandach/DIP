@@ -33,9 +33,9 @@ SW9000
 With this code, what happens if the manufacturer of the LB2300 comes out with a new model? 
 How can we write our switch to prevent this?
 
-Awesome, I've added a layer of abstraction. Is this really DIP?
+By creating an interface for the switchable objects, I've added a layer of abstraction. Is this really DIP?
 
-Remember, high-level modules should not depend on low-level modules. Let's identify the high level and low level modules.
+Remember, high-level modules should not depend on low-level modules. Identify the high level and low level modules.
 Who owns the abstraction?
 
 Let's move the abstraction to the high-level module. Now, is this an example of DIP?
